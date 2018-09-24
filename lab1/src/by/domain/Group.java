@@ -9,8 +9,8 @@ class Group {
     List<Student> students;
     Double calculateAvgMark(){
         int sum=0;
-        int count=0;
         double mark=0d;
+        int count=0;
         for (Student s:this.getStudents()
                 ) {
             for (Integer i:s.getMarks()
