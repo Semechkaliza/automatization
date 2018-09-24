@@ -11,13 +11,12 @@ public class Student {
     private Double avgMark;
 
     public Double calculateAvgMark(){
-
+        
         Integer count=this.getMarks().size();
         Double mark=0d;
         if(count!=null){
             mark= ((double) this.getMarks().stream().mapToInt(i -> i).sum())/count;
         }
-        
         return mark;
     }
 
