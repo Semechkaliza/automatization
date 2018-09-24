@@ -20,7 +20,9 @@ class Group {
             }
         }
         if(count!=0){
+
             mark=((double)sum)/count;
+            
         }
         return mark;
     }
