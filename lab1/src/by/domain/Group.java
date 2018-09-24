@@ -11,6 +11,9 @@ class Group {
         int sum=0;
         int count=0;
         double mark=0d;
+
+
+
         for (Student s:this.getStudents()
                 ) {
             for (Integer i:s.getMarks()
@@ -19,10 +22,11 @@ class Group {
                 sum+=i;
             }
         }
+        
         if(count!=0){
 
             mark=((double)sum)/count;
-            
+
         }
         return mark;
     }
