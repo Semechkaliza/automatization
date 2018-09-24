@@ -19,8 +19,11 @@ class Group {
                 sum+=i;
             }
         }
+        
         if(count!=0){
+
             mark=((double)sum)/count;
+
         }
         return mark;
     }
