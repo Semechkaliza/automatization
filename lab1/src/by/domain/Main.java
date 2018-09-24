@@ -6,8 +6,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Student a=new Student();
-        Student b=new Student();
         Group c=new Group();
+        Student b=new Student();
         List<Integer> list=new ArrayList<>();
         list.add(4);
         list.add(5);
