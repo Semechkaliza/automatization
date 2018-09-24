@@ -7,7 +7,6 @@ import java.util.List;
 @Data
 class Group {
     List<Student> students;
-
     Double calculateAvgMark(){
         int count=0;
         int sum=0;

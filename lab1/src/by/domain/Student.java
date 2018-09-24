@@ -9,7 +9,7 @@ public class Student {
     private String name;
     private List<Integer> marks;
     private Double avgMark;
-    
+
     public Double calculateAvgMark(){
         Integer count=this.getMarks().size();
         Double mark=0d;
