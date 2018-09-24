@@ -8,8 +8,8 @@ import java.util.List;
 class Group {
     List<Student> students;
     Double calculateAvgMark(){
-        int count=0;
         int sum=0;
+        int count=0;
         double mark=0d;
         for (Student s:this.getStudents()
                 ) {
